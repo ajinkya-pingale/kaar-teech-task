@@ -1,0 +1,32 @@
+<div class="p-4" >
+  <div class="card">
+
+    <div class="card-body">
+      <div class="row mx-2">
+        <table class="table table-border">
+          <thead>
+          <tr>
+            <th>ID</th>
+            <th class="text-center">Name</th>
+            <th class="text-center">Age</th>
+            <th class="text-center">Gender</th>
+
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let post of meetingList
+          let i = index">
+            <th scope="row">{{i+1}}</th>
+            <td class="text-center">{{post?.name}}</td>
+            <td class="text-center">{{post?.age}}</td>
+            <td class="text-center">{{post?.gender}}</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+
+  </div>
+
+</div>

@@ -1,0 +1,19 @@
+h3{
+  color: #005f9d;
+}
+.submit{
+  background-color: #005f9d;
+  color: white;
+  font-weight: bold;
+}
+
+.logo-center{
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.centerFlex {
+  margin-top: 30%;
+}
